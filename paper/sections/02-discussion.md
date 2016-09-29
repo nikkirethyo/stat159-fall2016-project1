@@ -28,4 +28,4 @@ There are several reasons a Makefile is important to the reproducible workflow. 
 * Keep track and document how one file was produced from another 
 * Pass this report along to another person so they can work on it and reproduce it 
 
- 
+A helpful resource on topics such as rule syntax, multiple targets, parallel executions and more is the [GNU Make Manual](https://www.gnu.org/software/make/manual/html_node/index.html#SEC_Contents). 

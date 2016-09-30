@@ -16,3 +16,11 @@
 3. Conclusions 
 
 ##Reproducing the project
+
+To reproduce this project, follow the steps below 
+
+1. Start in the stat159-fall2016-project1 directory 
+2. Make sure the Makefile is present 
+3. Run the `make` command 
+
+More details are included throughout the discussion. 

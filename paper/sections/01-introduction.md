@@ -1,5 +1,7 @@
 #Introduction
 
+![Stat159-logo](~/Documents/stat159/stat159-fall2016-project1/images/stat159-logo.png) 
+
 1. Motivation 
 In data science there is an abundance of tools at your disposal, which can be overwhelming for beginners. This paper is designed as a tutorial, created both by and for, some of these tools. It's purpose is to familiarize the reader with basic but essential tools to develop a reproducible and collaborative workflow.
 

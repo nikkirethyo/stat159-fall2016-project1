@@ -1,6 +1,6 @@
 #Discussion
 
-1. **GNU Make & Makefile** 
+##GNU Make & Makefile 
 
 ###About Make & Makefile Structure
 
@@ -49,7 +49,7 @@ There are several reasons a Makefile is important to the reproducible workflow. 
 
 A helpful resource on topics such as rule syntax, multiple targets, parallel executions and more is the [GNU Make Manual](https://www.gnu.org/software/make/manual/html_node/index.html#SEC_Contents).
 
-2. **Git & Version Control** 
+##Git & Version Control 
 
 ###About Git and Setting Git Up 
 
@@ -143,8 +143,7 @@ Now, if you wanted to revert back to one of those versions instead of your curre
 
 The easiest part of working with Git is the ability to go back as needed, while the challenge can be in knowing what to commit when. While working with this project I committed changes as I progressed section by section, which I found to be the best practice. A helpful resource when working with Git is this tutorial, [Version Control with Git](http://swcarpentry.github.io/git-novice/). 
 
-
-3. **GitHub & Remote Repositories**
+##GitHub & Remote Repositories
 
 ![GitHub-logo](~/Documents/stat159/stat159-fall2016-project1/images/github-logo.png) 
 
@@ -181,7 +180,7 @@ git pull origin master
 
 For example, once this report is complete, I will want to push out all my changes to the remote repository so that it is accessible by my professor for grading. It's best practice to always pull the most recent version from a remote repository before continuing to make changes. GitHub is an easy to use tool which you can leverage greatly, this [cheatcheet](https://education.github.com/git-cheat-sheet-education.pdf) is a useful resource for all your basic GitHub needs. 
 
-4. Pandoc 
+##Pandoc 
 
 ![Pandoc-logo](~/Documents/stat159/stat159-fall2016-project1/images/pandoc-logo.png) 
 
@@ -207,7 +206,7 @@ pandoc paper.md -s -o paper.html
 The advantages of Pandoc also make Pandoc a challenge to work with - a wide variety of use cases makes it difficult to remember commands for them all. A helpful resource when working with Pandoc is the examples they have available of conversion scenarios, which can be found at [Pandoc Demos](http://pandoc.org/demos.html). 
 
 
-5. **Markdown**
+##Markdown
 
 ![Markdown-logo](~/Documents/stat159/stat159-fall2016-project1/images/markdown-logo.png) 
 
@@ -232,7 +231,7 @@ Markdown is written in plaintext, meaning using only letters, characters, and sy
 
 Markdown is very easy to use, which is why it is most people's preferred markup language, which makes it extremeley important for collaborating with others. It is rendered stylistically when converted to html, pdf, etc. through using tools such as Pandoc. This [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) guide on GitHub is a great resource for learning what you need to get started using Markdown. 
 
-6. **Vim & Text Editors** 
+##Vim & Text Editors 
 
 Vim is one of many text editors, and the one I used to create this project. A text editor is pretty self-explanatory, it is a system which allows you to edit plaintext files. All of the files in this project were created and edited using Vim. 
 

@@ -191,6 +191,8 @@ We will go over two use cases that are relevant to this project:
 1. Rendering multiple markdown files into one 
 2. Rendering a markdown file to an HTML file 
 
+###Pandoc Examples
+
 In order to merge our markdown sections into paper.md we can use the following command and then convert the markdown file to HTML we use the following: 
 
 ```
@@ -205,3 +207,31 @@ pandoc paper.md -s -o paper.html
 The advantages of Pandoc also make Pandoc a challenge to work with - a wide variety of use cases makes it difficult to remember commands for them all. A helpful resource when working with Pandoc is the examples they have available of conversion scenarios, which can be found at [Pandoc Demos](http://pandoc.org/demos.html). 
 
 
+5. **Markdown**
+
+![Markdown-logo](~/Documents/stat159/stat159-fall2016-project1/images/markdown-logo.png) 
+
+Markdown is a lightweight markup language which allows you to add *style* anything you write using plaintext. This is important because it allows reproducibility and collaboration by providing a standard syntax to control document displays. For example, this whole report is written using Markdown. 
+
+Markdown is written in plaintext, meaning using only letters, characters, and symbols on your keyboard. You can *italicize* words or **bold** them, you can insert [links](https://www.google.com/search?q=puppies&espv=2&biw=1280&bih=612&source=lnms&tbm=isch&sa=X&ved=0ahUKEwioudCljLjPAhVY92MKHVgeDx0Q_AUIBigB) where needed, or insert `code`. Some examples used in this paper are below: 
+
+```
+
+**how to make words bold**
+
+*how to italicize words*
+
+1. ordered 
+2. lists 
+    1. sublists 
+
+* unordered 
+* lists 
+
+```
+
+Markdown is very easy to use, which is why it is most people's preferred markup language, which makes it extremeley important for collaborating with others. It is rendered stylistically when converted to html, pdf, etc. through using tools such as Pandoc. This [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) guide on GitHub is a great resource for learning what you need to get started using Markdown. 
+
+6. **Vim & Text Editors** 
+
+Vim is one of many text editors, and the one I used to create this project. A text editor is pretty self-explanatory, it is a system which allows you to edit plaintext files. All of the files in this project were created and edited using Vim. 

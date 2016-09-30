@@ -8,10 +8,11 @@
     2. Goal
 2. Discussion
     1. GNU Make & Makefile 
-    2. Git & GitHub
-    3. Pandoc 
-    4. Markdown 
-    5. Vim 
+    2. Git 
+    4. GitHub
+    5. Pandoc 
+    6. Markdown 
+    7. Vim 
 3. Conclusions 
 
 ##Reproducing the project

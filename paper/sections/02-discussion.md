@@ -53,7 +53,7 @@ A helpful resource on topics such as rule syntax, multiple targets, parallel exe
 
 ###About Git and Setting Git Up 
 
-[Git-logo](~/Documents/stat159/stat159-fall2016-project1/images/git-logo.png) 
+![Git-logo](~/Documents/stat159/stat159-fall2016-project1/images/git-logo.png) 
 
 [Git](https://git-scm.com/) is a version control software which enables you to track any changes you make to both files and directories. The importance of this tool is not just in its tracking ability, but its ability to provide an unlimited amount of undos and to allow multiple people to work on a project in parallel.
 

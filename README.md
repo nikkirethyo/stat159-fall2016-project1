@@ -17,10 +17,12 @@
 
 ##Reproducing the project
 
-To reproduce this project, follow the steps below 
+To reproduce this project, run the following commands: 
 
-1. Start in the stat159-fall2016-project1 directory 
-2. Make sure the Makefile is present 
-3. Run the `make` command 
+```
+git clone "https://github.com/nikkirethyo/stat159-fall2016-project1.git" 
+cd stat159-fall2016-project1
+make
 
+```
 More details are included throughout the discussion. 

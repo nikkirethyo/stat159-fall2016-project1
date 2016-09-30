@@ -1,6 +1,6 @@
 #Conclusions
 
-
+Now that we are familiar with these various tools, we can successfully recreate this report if needed. You now understand the importance of version control, remote repositories, reproducible reports, markup languages, text editors, and file conversions. In conclusion, I'll leave you with some final advice on how to approach projects and what to do when you become stuck.  
 
 When tackling a project such as this one, the challenge can be in figuring out where to start. It's best practice to have an idea of what the organizational structure will be before jumping in. For example, this project was organized as follows: 
 
@@ -31,3 +31,4 @@ Once you have this in mind, you can start from bare bones. For example, I create
 Another easy part is learning the tools needed to create reproducible and collaborative projects. There is an abundance of online resources for the tools discussed in this project, many of which I've included throughout our discussion. For example, when I was stuck on constructing multiple targets in the Makefile, I easily found many tutorials and answers to help. 
 
 Ultimately, the main takeaway for is to think about the bigger picture before getting down into the details and take advantage of the many resources available for help. 
+

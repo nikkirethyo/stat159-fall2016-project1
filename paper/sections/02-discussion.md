@@ -235,3 +235,15 @@ Markdown is very easy to use, which is why it is most people's preferred markup 
 6. **Vim & Text Editors** 
 
 Vim is one of many text editors, and the one I used to create this project. A text editor is pretty self-explanatory, it is a system which allows you to edit plaintext files. All of the files in this project were created and edited using Vim. 
+
+###Creating a New File 
+
+Vim is my text editor of choice due to its simplicity, it is a WYSIWYG (What You See Is What You Get) type of system. In order to create a new text file you run the command `vi filename.ext` where `ext` would be the file extension, typically either `.txt`, `.md`, `.html`, etc. Once you run that command, you will leave the command line interface and will be brought to your blank file. 
+
+###Editing Your File 
+
+Once you are brought to your file, you will need to switch to *Insert Mode* to start editing. To do this simply hit `i` and enter. You can now begin to type into your new file. When you are finished editing the file, you will need to enter back into *Normal Mode*. To do this simply press `esc` button. Now that you have exited insert mode, you can save your file by type `:wq` and pressing enter again. 
+
+If you ever want to edit your file again, which is bound to happen many times, run the command `vi filename.ext` again. Since the file already exists, it will not create a new one but return you to your current one. Switch back to insert mode and you can continue editing from where you left off. 
+
+Vim is another easy to use tool, but if you want to practice, this interactive [tutorial](http://www.openvim.com/) is very helpful. 

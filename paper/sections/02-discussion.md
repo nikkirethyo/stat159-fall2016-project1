@@ -155,9 +155,53 @@ In the above section we worked with local repositories, essentially meaning it e
 For starters, you'll want to sign up for a GitHub account. Once that's done, you'll need to add the remote repository to your local one. For example, this report's local repository exists within the `stat159-fall2016-project1` directory on my device. If I want to be able to sync this work with a web based repository, I'll first have to create a new repository on GitHub. Click the `+` in the top right corner, give your repository a name, and you'll be directed to a quick setup page providing you with a link, such as [https://github.com/nikkirethyo/Stat159.git](https://github.com/nikkirethyo/Stat159.git). This is the address of your new remote repository that you'll want to associate with your local one. To do so, follow the below example: 
 
 ```
+
 #origin will be the name of the remote repository, it's best practice to name it origin
 git remote add origin "https://github.com/nikkirethyo/Stat159.git"
-#to then check that the remote repository has been added, you can check the status as such 
+
+#to then check that the remote repository has been added, you can view it by running 
 git remote -v 
 
+#which should give you the following output now 
+origin	https://github.com/nikkirethyo/Stat159.git (fetch)
+origin	https://github.com/nikkirethyo/Stat159.git (push)
+
 ```   
+
+Now that you've successfully added a remote repository, you can continue to work in your local one, pushing and pulling changes to and from your remote repository as needed. 
+
+To push out your most recent changes in your local repository: 
+```
+git push origin master 
+```
+To pull the most up to date remote repository to your local one:
+```
+git pull origin master
+```
+
+For example, once this report is complete, I will want to push out all my changes to the remote repository so that it is accessible by my professor for grading. It's best practice to always pull the most recent version from a remote repository before continuing to make changes. GitHub is an easy to use tool which you can leverage greatly, this [cheatcheet](https://education.github.com/git-cheat-sheet-education.pdf) is a useful resource for all your basic GitHub needs. 
+
+4. Pandoc 
+
+![Pandoc-logo](~/Documents/stat159/stat159-fall2016-project1/images/pandoc-logo.png) 
+
+[Pandoc](http://pandoc.org/) is a universal document converter, enabling you to convert from one markup language to the next. Although for this project we will just be using Pandoc on Markdown and HTML files, it's advantage lies in the wide range of languages it can seemlessly convert between. 
+
+We will go over two use cases that are relevant to this project: 
+1. Rendering multiple markdown files into one 
+2. Rendering a markdown file to an HTML file 
+
+In order to merge our markdown sections into paper.md we can use the following command and then convert the markdown file to HTML we use the following: 
+
+```
+#merges markdown sections into one markdown file
+pandoc *.md > paper.md
+
+#converts markdown file to html 
+pandoc paper.md -s -o paper.html
+
+```  
+
+The advantages of Pandoc also make Pandoc a challenge to work with - a wide variety of use cases makes it difficult to remember commands for them all. A helpful resource when working with Pandoc is the examples they have available of conversion scenarios, which can be found at [Pandoc Demos](http://pandoc.org/demos.html). 
+
+

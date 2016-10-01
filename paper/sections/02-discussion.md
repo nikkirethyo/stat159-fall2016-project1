@@ -15,11 +15,17 @@ target: dependency
 In this particular project, Makefile was useful for generating the paper as a whole from an abstract, introduction, discussion, and conclusion. Then converting that from Markdown to HTML using Pandoc (both Markdown and Pandoc will be discussed later on). This example is as follows: 
 
 ```make
-paper.md: 00-abstract.md 01-introduction.md 02-discussion.md 03-conclusions.md
-	pandoc *.md > paper.md
+DIR = paper/sections/
 
-paper.html: paper.md 
-	pandoc paper.md -s -o paper.html
+all: paper.html paper.md 
+
+paper.html: $(DIR)00-abstract.md $(DIR)01-introduction.md $(DIR)02-discussion.md $(DIR)03-conclusions.md
+	cd paper/sections; pandoc *.md -s -o paper.html 
+	cd paper/sections; mv paper.html ../../
+
+paper.md: $(DIR)00-abstract.md $(DIR)01-introduction.md $(DIR)02-discussion.md $(DIR)03-conclusions.md
+	cd paper/sections; pandoc *.md > paper.md
+	cd paper/sections; mv paper.md ../../
 ```
 
 Notice that tabs must be used for rules and a Makefile can contain multiple targets, dependencies and rules.   
